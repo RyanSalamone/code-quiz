@@ -39,19 +39,19 @@ var questions = [
         answer: "parentheses"
     },
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Which is not a sport?",
+        choices: ["baseball", "soccer", "string cheese", "Football"],
+        answer: "string cheese"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "Which was never a U.S president?",
+        choices: ["Hulk Hogan", "Barack Obama", "George Washington", "Abe Lincoln"],
+        answer: "Hulk Hogan"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "What type of bear is best?",
+        choices: ["Grizzly Bear", "Black Bear", "There Are Basically 2 Schools of Thought....", "Chicago Bears"],
+        answer: "Black Bear"
     },
 ]
 
