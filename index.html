@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HW4 Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\louis\CodingBC\Code-Quiz\code-quiz\style.css">
+    
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light justify-content-between">
+    <button id="hsbutton" class="btn btn-outline-primary" type="button">View Highscore</button>
+    <ul class="navbar-nav mr-4">
+        <li class="nav-item active">
+            <div id="timer">Timer: <span class="sr-only">(current)</span></div>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header text-center">
+            <h1>Coding Bootcamp Quiz</h1>
+        </div>
+
+        <div class="card-body text-center h-50">
+            <div class="card-text">
+                <br><br>
+
+                <div id="firstPage">
+                    <h4>Complete all 5 questions of the quiz in 75 seconds and then log your high score!</h4>
+                    <br>
+                    <h5>Get one incorrect and lose 10 seconds!</h5>
+                    <br>
+                    <br>
+                <button id="button" class="btn btn-primary btn-lg start-button">
+                <span class="fa fa-plus"></span> Start Quiz</button>
+                </div>
+                <h3 id="questionsPage"></h3>
+                    <br>
+                <div id="choices">
+                    <button class="button btn-primary btn-md rounded" id="a"></button>
+                    <br><br>
+                    <button class="button btn-primary btn-md rounded" id="b"></button>
+                    <br><br>
+                    <button class="button btn-primary btn-md rounded" id="c"></button>
+                    <br><br>
+                    <button class="button btn-primary btn-md rounded" id="d" ></button>
+                </div>
+                <div id="result"></div>
+                <div id="form" method="POST">
+                        <div id="score"></div>
+                        <div class="input-group">
+                            <label for="email">Enter Name:    </label>
+                            <input type="text" name="name" id="name"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                </div>
+                <div id="highscore">
+                    <h2>High-Scores</h2>
+                    <div class="row" id="highscoreList">
+                
+                    </div>
+                    <button id="home" class="btn btn-primary btn-lg start-button">
+                        <span class="fa fa-plus" href="#"></span>Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="C:\Users\louis\CodingBC\Code-Quiz\code-quiz\script.js"></script>
+
+</body>
+</html>
